@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="E-Commerce TestSuite Parallel Test Running" parallel="classes" thread-count="5" >
+    <listeners>
+        <listener class-name="com.eCom.utilities.ITestListenerClass"/>
+    </listeners>    <test name="Test Parallel">
+        <classes>
+            <class name="com.eCom.testCases.LoginTest"/>
+            <class name="com.eCom.testCases.SearchProductTest"/>
+        </classes>
+    </test>
+</suite>
