@@ -59,7 +59,8 @@ public class ITestListenerClass implements ITestListener {
         System.out.println("Test Case FAILED "+result.getMethod().getMethodName()+" "+result.getTestClass());
         extentTest = extentReports.createTest(result.getMethod().getMethodName());
 
-        extentTest.log(Status.FAIL, MarkupHelper.createLabel(result.getMethod().getMethodName(), ExtentColor.RED));
+        extentTest.log(Status.FAIL, MarkupHelper.createLabel(result.getMethod().getMethodName(), ExtentColor.RED))
+                .addScreenCaptureFromPath(System.getProperty("user.dir")+"\\Screenshots\\"+result.getMethod().getMethodName()+".png");
 
         String screenShotPath = System.getProperty("user.dir")+"\\Screenshots\\"+result.getMethod().getMethodName()+".png";
         File screenShotFile = new File(screenShotPath);

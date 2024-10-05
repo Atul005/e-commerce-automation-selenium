@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="88dc170d-5194-4f0e-9335-4421b6382dcf" name="Changes" comment="file commited">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/eCom/pages/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/eCom/pages/BaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/eCom/testCases/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/eCom/testCases/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/eCom/utilities/ITestListenerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/eCom/utilities/ITestListenerClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +23,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Atul005"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Atul005/e-commerce-automation-selenium.git&quot;,
+    &quot;accountId&quot;: &quot;6b3a0b2f-5af4-4942-abf7-6c9f097aef81&quot;
+  }
+}</component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -39,21 +49,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "TestNG.F:/IntelliJ Projects/e-commerce-automation-selenium/testng.xml.executor": "Run",
-    "TestNG.F:/IntelliJ Projects/e-commerce-automation-selenium/testngparallel.xml.executor": "Run",
-    "TestNG.LoginTest.executor": "Run",
-    "TestNG.LoginTest.verify.executor": "Run",
-    "TestNG.LoginTest.verifyUsers.executor": "Run",
-    "TestNG.SearchProductTest.searchProductTest.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "F:/IntelliJ Projects/e-commerce-automation-selenium/src/main/java/org/example/Main.java",
-    "settings.editor.selected.configurable": "MavenSettings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TestNG.F:/IntelliJ Projects/e-commerce-automation-selenium/testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.F:/IntelliJ Projects/e-commerce-automation-selenium/testngparallel.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginTest.verify.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginTest.verifyUsers.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SearchProductTest.searchProductTest.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;F:/IntelliJ Projects/e-commerce-automation-selenium/src/main/java/org/example/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="TestNG.LoginTest.verify">
     <configuration name="F:/IntelliJ Projects/e-commerce-automation-selenium/testng.xml" type="TestNG" nameIsGenerated="true">
       <module name="e-commerce-automation-selenium" />
@@ -173,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728022558081</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="file commited">
+      <option name="closed" value="true" />
+      <created>1728104678463</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728104678575</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -195,7 +213,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/eCom/utilities/ITestListenerClass.java</url>
-          <line>63</line>
+          <line>64</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
