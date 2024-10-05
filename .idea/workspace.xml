@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88dc170d-5194-4f0e-9335-4421b6382dcf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+    <list default="true" id="88dc170d-5194-4f0e-9335-4421b6382dcf" name="Changes" comment="file commited">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/eCom/pages/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/eCom/pages/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/eCom/testCases/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/eCom/testCases/LoginTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +25,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -41,7 +42,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "TestNG.F:/IntelliJ Projects/e-commerce-automation-selenium/testng.xml.executor": "Debug",
+    "TestNG.F:/IntelliJ Projects/e-commerce-automation-selenium/testng.xml.executor": "Run",
     "TestNG.F:/IntelliJ Projects/e-commerce-automation-selenium/testngparallel.xml.executor": "Run",
     "TestNG.LoginTest.executor": "Run",
     "TestNG.LoginTest.verify.executor": "Run",
@@ -53,7 +54,7 @@
     "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.F:/IntelliJ Projects/e-commerce-automation-selenium/testng.xml">
+  <component name="RunManager" selected="TestNG.LoginTest.verify">
     <configuration name="F:/IntelliJ Projects/e-commerce-automation-selenium/testng.xml" type="TestNG" nameIsGenerated="true">
       <module name="e-commerce-automation-selenium" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
@@ -149,8 +150,8 @@
       <list>
         <item itemvalue="TestNG.LoginTest.verify" />
         <item itemvalue="TestNG.LoginTest.verifyUsers" />
-        <item itemvalue="TestNG.F:/IntelliJ Projects/e-commerce-automation-selenium/testngparallel.xml" />
         <item itemvalue="TestNG.SearchProductTest.searchProductTest" />
+        <item itemvalue="TestNG.F:/IntelliJ Projects/e-commerce-automation-selenium/testngparallel.xml" />
         <item itemvalue="TestNG.LoginTest" />
       </list>
     </recent_temporary>
@@ -164,7 +165,20 @@
       <option name="presentableId" value="Default" />
       <updated>1727328617510</updated>
     </task>
+    <task id="LOCAL-00001" summary="file commited">
+      <option name="closed" value="true" />
+      <created>1728022558073</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1728022558081</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="file commited" />
+    <option name="LAST_COMMIT_MESSAGE" value="file commited" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -183,6 +197,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/com/eCom/utilities/ITestListenerClass.java</url>
           <line>63</line>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/aventstack/extentreports/5.1.1/extentreports-5.1.1-sources.jar!/com/aventstack/extentreports/ExtentTest.java</url>
+          <line>1106</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

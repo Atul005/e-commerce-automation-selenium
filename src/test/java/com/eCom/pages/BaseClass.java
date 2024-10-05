@@ -41,7 +41,7 @@ public class BaseClass {
         TakesScreenshot screenshot = (TakesScreenshot) webDriver;
 
         File src = screenshot.getScreenshotAs(OutputType.FILE);
-        File srcPath = new File("."+"//Screenshots//"+testName+".png");
+        File srcPath = new File(System.getProperty("user.dir") + "\\Screenshots\\"+testName+".png");
 
         System.out.println("Screenshot taken for failed testcases");
 

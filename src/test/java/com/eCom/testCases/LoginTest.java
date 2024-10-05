@@ -21,9 +21,17 @@ public class LoginTest extends BaseClass {
 
 
     @Test
-    public void verify(){
+    public void verify() throws IOException {
+        String uName = "ravi@dhiyotech.in";
+        String pass = "Dem";
         LoginPage loginPage = new LoginPage(webDriver);
-        loginPage.loginPortal("ravi@dhiyotech.in","Demo");
+        loginPage.loginPortal(uName,pass);
+        if(uName.equals("ravi@dhiyotech.in") && pass.equals("Demo")){
+            Assert.assertTrue(true);
+        } else {
+            captureScreenshot(webDriver, "verifyUsers");
+            Assert.fail();
+        }
 //        loginPage.logOut();
     }
 
@@ -33,7 +41,7 @@ public class LoginTest extends BaseClass {
         LoginPage loginPage = new LoginPage(webDriver);
         loginPage.loginPortal(userName, password);
 
-        if(userName.equals("ravi@dhiyotech.in") && password.equals("Demo")){
+        if(userName.equals("ravi@dhiyotech.in") && password.equals("Dem")){
             Assert.assertTrue(true);
         } else {
             captureScreenshot(webDriver, "verifyUsers");
